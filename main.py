@@ -1,15 +1,4 @@
-game = {"score": 0, 
-          "level": 0, 
-          "username": "RICKY"}
-print("Enter username:")
-game["username"] = input()
-print("Enter level in integers:")
-game["level"] = int(input())
-print("Enter level in integers:")
-game["score"] = int(input())
-print("Username:", game["username"])
-print("level: ", game["level"])
-print("score: ", game["score"])
+
 players = []
 
 add_players = True
